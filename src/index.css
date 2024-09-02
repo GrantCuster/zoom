@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'DepartureMono';
+  src: url('DepartureMono-Regular.woff') format('woff');
+}
+
+html, body {
+  font-family: 'DepartureMono';
+  background-color: black;
+  color: white;
+}
